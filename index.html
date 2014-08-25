@@ -1,0 +1,18 @@
+<button class="button">install</button>
+<div>Status:</div>
+<div class="status"></div>
+
+<script>
+  var button = document.querySelector(".button");
+  button.addEventListener("click", function() {
+    var install = navigator.mozApps.install("http://10.242.35.10:5001/manifest.webapp");
+    var status = document.querySelector(".status");
+    install.onerror = function() {
+      status.textContent = "error: " + this.error + " .... name: " + this.error.name + " .... message: " + this.error.message;
+      console.log(this.error);
+    };
+    install.onsuccess = function() {
+      status.textContent = "success";
+    };
+  });
+</script>
