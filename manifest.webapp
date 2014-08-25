@@ -3,7 +3,7 @@
   "description": "My elevator pitch goes here",
   "launch_path": "/exampleApp/app.html",
   "icons": {
-    "64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA8ElEQVR4nO3YIW4CQRiG4dW9Qi+Ax9U1IeFEBF9V2eBQFT0DJyBB19S1eERTNGa5wXwJfyZN2Ee8buefnUdNZvj5HMZK47lWmv+yfy41e3prNgAAAAAAAAATBkgDegP0BgIAAAAAAAAA9AO4fDw2G95XzarrAQAAAAAAAAD/B/B6+C31tdw2S+sBAAAAAAAAALcDHOfzsdLfYtEsHWC9+26W1qf/S8AAAAAAAADAlAHSB6fNQ7P0oJFKB6wCxIsQAAAAAAAAMGGA9KDQ+6JUnd/9RQgAAAAAAAC4Y4C0QboIVQFSaX8AAAAAAAAAwM0AV21g25lGvP7LAAAAAElFTkSuQmCC"
+    "128": "/exampleApp/app-icon-128.png"
   },
   "developer": {
     "name": "Your name or organization",
